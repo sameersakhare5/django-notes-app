@@ -38,4 +38,5 @@ step 7:
 test web-app
 http://<Your_Load_Balancer_DNS_Name>:80
 
+conclusion:
 now our WAF for Web Application Protection implemented successfully. 
