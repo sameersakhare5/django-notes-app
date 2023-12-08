@@ -22,21 +22,8 @@ Connect instance and configure instance by following command :
 step 3:
 map 8888 to 8000
 
-step 4:
- Using template create autoscaling group. Launch Template created earlier.
-set up scaling policies, desired capacity, and other parameters.
 
-step5:
-In Ec2 dashboard navigate to load balancer and create load balancer 
--add instance to the target group
-
-step 6:
-In the AWS WAF console, go to WebACLs and click "Create WebACL."
-Define the conditions for your WebACL, specifying the rules to allow or block requests.
-
-step 7: 
-test web-app
-http://<Your_Load_Balancer_DNS_Name>:80
 
 conclusion:
-now our WAF for Web Application Protection implemented successfully. 
+now our  web app is hosted sucessfully  just use public ip adress of machine from which you have hosted it. 
+format of accessing site <ip adress:8888>
